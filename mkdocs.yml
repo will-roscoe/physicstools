@@ -1,0 +1,22 @@
+site_name: physicstools
+theme: material
+plugins:
+    - search
+    - mermaid2
+    - git-revision-date-localized:
+        enable_creation_date: true
+    - tags
+    - autolinks
+repo_url: https://github.com/will-roscoe/physicstools/
+markdown_extensions:
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
