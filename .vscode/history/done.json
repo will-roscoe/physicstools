@@ -1,0 +1,303 @@
+"textMateRules": [
+    {"name": "main",
+      "scope": "source.python",
+      "settings": {
+        "foreground": "#b7b7b7"
+      }
+    },
+    {"name": "Meta Function class call",
+      "scope": "meta.function-call.generic.python,punctuation.separator.arguments.python,punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python",
+      "settings": {
+        "foreground": "#d6d6d6"
+      }
+    },
+    { "name": "Meta function definitions",
+      "scope": "meta.function.python",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {"name": "builtins",
+    "scope": "support.function.builtin.python",
+    "settings": {
+      "foreground": "#9f9f9f"
+    }
+  },
+    {"name": "Unpacking asterisk" ,
+      "scope": "keyword.operator.unpacking.parameter.python, keyword.operator.unpacking.arguments.python",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {"name": "???",
+      "scope": "storage.type.number.python,storage.type.format.python,keyword.operator.positional.parameter.python,keyword.codetag.notation.python,variable.parameter.class.python,support.type.metaclass.python",
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "Meta fstring",
+      "scope": "meta.fstring.python",
+      "settings": {
+        "foreground": "#e89595"
+      }
+    },
+    {
+      "name": "Indexing",
+      "scope": "meta.item-access.python,meta.member.access.python",
+      "settings": {
+        "foreground": "#8e6666"
+      }
+    },
+    {
+      "name": "function def parameters inc. parentheses",
+      "scope": "meta.function.parameters.python",
+      "settings": {
+        "foreground": "#b49d08"
+      }
+    },
+    {"name": "all functions inc. parenthees",
+      "scope": "meta.function-call.python",
+      "settings": {
+        "foreground": "#808080"
+    }
+    },
+    {
+      "name": "parameter in function call and definition",
+      "scope": "variable.parameter.function-call.python, variable.parameter.function.language.python",
+      "settings": {
+        "foreground": "#7e7e7e"
+      }
+    },
+    {"name":"object types",
+      "scope": "support.type.python",
+      "settings": {
+        "foreground": "#48bbb9"
+      }
+    },
+
+
+
+    {"name": "self and cls as params",
+    "scope": "variable.parameter.function.language.special.cls.python,variable.parameter.function.language.special.self.python,",
+    "settings": {"foreground": "#ffffff"}},
+    {"name": "self and cls as attributes",
+      "scope": "variable.language.special.cls.python,variable.language.special.self.python",
+      "settings": {"foreground": "#424242"}},
+    
+    
+    {"name": "Exceptions",
+      "scope": "support.type.exception.python",
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+
+
+    {"name": "magic functions",
+      "scope": "support.function.magic.python,support.variable.magic.python",
+      "settings": {
+        "foreground": "#bababa"
+      }
+    },
+
+    {"name": "strings",
+      "scope": "string.quoted.single.python,string.quoted.multi.python",
+      "settings": {
+        "foreground": "#c17958"
+      }
+    },
+    {"name": "docstrings",
+      "scope": "string.quoted.docstring.multi.python",
+      "settings": {
+        "foreground": "#e8e8e8",
+      }
+    },
+    {"name": "f on f string etc",
+      "scope": "storage.type.string.python",
+      "settings": {
+        "foreground": "#00f7ff6f"
+      }
+    },
+    {"name": "function and class definition punctuation",
+      "scope": "punctuation.separator.parameters.python,,punctuation.section.function.begin.python,punctuation.section.class.begin.python,punctuation.definition.parameters.begin.python, punctuation.definition.parameters.end.python",
+      "settings": {"foreground": "#ff8e3e"}},
+    {"name": "def/class (definitions)",
+      "scope": "storage.type.function.python, storage.type.class.python",
+      "settings": {"foreground": "#ff8e3e", "fontStyle": "italic"}},
+    
+    {
+      "name": "global local",
+      "scope": "storage.modifier.declaration.python",
+      "settings": {
+        "foreground": "#ff00f2",
+        "fontStyle": "italic"
+      }
+    },
+    {"name": "slice",
+      "scope": "punctuation.separator.slice.python",
+      "settings": {
+        "foreground": "#242424"
+      }
+    },
+    {"name": "period?",
+      "scope": "punctuation.separator.period.python",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {"name": "???2",
+      "scope": "punctuation.separator.inheritance.python",
+      "settings": {
+        "foreground": "#FF0000"
+      }
+    },
+    {
+      "name": "commas between bits in lists dicts, etc",
+      "scope": "punctuation.separator.element.python",
+      "settings": {
+        "foreground": "#d3c6c6"
+      }
+    },
+    {"name": "backslash for newline",
+      "scope": "punctuation.separator.continuation.line.python",
+      "settings": {
+        "foreground": "#00ff15"
+      }
+    },
+
+    {"name": "typehint result arrow",
+      "scope": "punctuation.separator.annotation.python,punctuation.separator.annotation.result.python",
+      "settings": {
+        "foreground": "#f2ff00"
+      }
+    },
+    
+    {"name": "speech bubbles outside of defs or func calls",
+      "scope": "punctuation.parenthesis.end.python, punctuation.parenthesis.begin.python",
+      "settings": {
+        "foreground": "#b2ff7e"
+      }
+    },
+    {"name": "speech marks",
+      "scope": "punctuation.definition.string.begin.python, punctuation.definition.string.end.python",
+      "settings": {
+        "foreground": "#656565"
+      }
+    },
+    {"name": "square brackets",
+      "scope": "punctuation.definition.list.begin.python, punctuation.definition.list.end.python",
+      "settings": {
+        "foreground": "#ff83f3"
+      }
+    },
+    {"name": "?????",
+      "scope": "punctuation.definition.inheritance.begin.python, punctuation.definition.inheritance.end.python",
+      "settings": {
+        "foreground": "#ea0000"
+      }
+    },
+    {"name": "dict curly brackets",
+      "scope": "punctuation.definition.dict.begin.python, punctuation.definition.dict.end.python,punctuation.separator.dict.python",
+      "settings": {
+        "foreground": "#786cff"
+      }
+    },
+    {"name": "maths",
+      "scope": "keyword.operator.arithmetic.python",
+      "settings": {
+        "foreground": "#a3a3a3"
+      }
+    },
+    {"name": "variable comparison eg ==",
+      "scope": "  keyword.operator.comparison.python",
+      "settings": {
+        "foreground": "#b44200"
+      }
+    },
+    {"name": "assigning equals",
+      "scope": "keyword.operator.assignment.python",
+      "settings": {
+        "foreground": "#d6d6d6"
+      }
+    },
+    {"name": "escape and newline \ns etc",
+    "scope": "constant.character.escape.python",
+      "settings": {
+        "foreground": "#e5ff00"
+      }
+    },
+    {"name": "captitalized vars",
+      "scope": "constant.other.caps.python",
+      "settings": {
+        "foreground": "#a735ff",
+        "fontStyle": "italic bold",
+      }
+    },
+    {
+      "name": "placeholder ellipsis ...",
+      "scope": "constant.other.ellipsis.python",
+      "settings": {
+        "foreground": "#909090"
+      }
+
+    },
+    {"name": "comment hash",
+      "scope": "punctuation.definition.comment.python",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {"name": "if while else elif from with return pass for ",
+      "scope": "keyword.control.flow.python,punctuation.separator.colon.python",
+      "settings": {
+        "foreground": "#4a8fff",
+        "fontStyle": "italic"
+      }
+    },
+    {"name": "import",
+      "scope": "keyword.control.import.python",
+      "settings": {
+        "foreground": "#00ff22",
+        "fontStyle": "italic bold"
+      }
+    },
+
+    {"name": "class name",
+      "scope": "entity.name.type.class.python",
+      "settings": {
+        "foreground": "#ffb618",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name":"Single Line Comments",
+      "scope": "comment.line.number-sign.python",
+      "settings": {
+        "foreground": "#5e5e5e",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name":"Literals",
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#a1d2ff"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": "constant.numeric.python, constant.numeric.bin.python, constant.numeric.dec.python, constant.numeric.float.python,constant.numeric.hex.python, constant.numeric.oct.python",
+      "settings": {
+        "foreground": "#757575"
+      }
+    },
+    {
+      "name": "Logical operators (in)",
+      "scope": "keyword.operator.logical.python",
+      "settings": {
+        "foreground": "#f57f1f"
+      }
+    },
+  ],

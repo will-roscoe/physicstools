@@ -11,7 +11,6 @@ def read(*paths, **kwargs):
     >>> read("README.md")
     ...
     """
-
     content = ""
     with io.open(
         os.path.join(os.path.dirname(__file__), *paths),
