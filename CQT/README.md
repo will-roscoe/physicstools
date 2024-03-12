@@ -1,6 +1,6 @@
 
 
-1 Introduction PostScript or PDF
+1 Introduction  
 
 -  1.1 Scope of this Book
 -  1.2 Quantum States and Variables
@@ -12,7 +12,7 @@
 -  1.8 Quantum Paradoxes
 
 
-2 Wave Functions PostScript or PDF
+2 Wave Functions  
 
 -  2.1 Classical and Quantum Particles
 -  2.2 Physical Interpretation of the Wave Function
@@ -21,7 +21,7 @@
 -  2.5 Toy Model
 
 
-3 Linear Algebra In Dirac Notation PostScript or PDF
+3 Linear Algebra In Dirac Notation  
 
 -  3.1 Hilbert Space and Inner Product
 -  3.2 Linear Functionals and the Dual Space
@@ -35,7 +35,7 @@
 -  3.10 Functions of Operators
 
 
-4 Physical Properties PostScript or PDF
+4 Physical Properties  
 
 -  4.1 Classical and Quantum Properties
 -  4.2 Toy Model and Spin Half
@@ -45,7 +45,7 @@
 -  4.6 Incompatible Properties
 
 
-5 Probabilities and Physical Variables PostScript or PDF
+5 Probabilities and Physical Variables  
 
 -  5.1 Classical Sample Space and Event Algebra
 -  5.2 Quantum Sample Space and Event Algebra
@@ -55,7 +55,7 @@
 -  5.6 Averages
 
 
-6 Composite Systems and Tensor Products PostScript or PDF
+6 Composite Systems and Tensor Products  
 
 -  6.1 Introduction
 -  6.2 Definition of tensor products
@@ -65,7 +65,7 @@
 -  6.6 Product Properties and Product of Sample Spaces
 
 
-7 Unitary Dynamics PostScript or PDF
+7 Unitary Dynamics  
 
 -  7.1 The Schrödinger Equation
 -  7.2 Unitary Operators
@@ -73,7 +73,7 @@
 -  7.4 Toy Models
 
 
-8 Stochastic Histories PostScript or PDF
+8 Stochastic Histories  
 
 -  8.1 Introduction
 -  8.2 Classical Histories
@@ -84,7 +84,7 @@
 -  8.7 Unitary Histories
 
 
-9 The Born Rule PostScript or PDF
+9 The Born Rule  
 
 -  9.1 Classical Random Walk
 -  9.2 Single-Time Probabilities
@@ -94,7 +94,7 @@
 -  9.6 Schrödinger's Cat
 
 
-10 Consistent Histories PostScript or PDF
+10 Consistent Histories  
 
 -  10.1 Chain Operators and Weights
 -  10.2 Consistency Conditions and Consistent Families
@@ -102,7 +102,7 @@
 -  10.4 Refinement and Compatibility
 
 
-11 Checking Consistency PostScript or PDF
+11 Checking Consistency  
 
 -  11.1 Introduction
 -  11.2 Support of a Consistent Family
@@ -114,7 +114,7 @@
 -  11.8 Intrinsically Inconsistent Histories
 
 
-12 Examples of Consistent Families PostScript or PDF
+12 Examples of Consistent Families  
 
 -  12.1 Toy Beam Splitter
 -  12.2 Beam Splitter With Detector
@@ -122,7 +122,7 @@
 -  12.4 Toy Alpha Decay
 
 
-13 Quantum Interference PostScript or PDF
+13 Quantum Interference  
 
 -  13.1 Two-Slit and Mach-Zehnder Interferometers
 -  13.2 Toy Mach-Zehnder Interferometer
@@ -131,7 +131,7 @@
 -  13.5 Weak Detectors in Internal Arms
 
 
-14 Dependent (Contextual) Events PostScript or PDF
+14 Dependent (Contextual) Events  
 
 -  14.1 An Example
 -  14.2 Classical Analogy
@@ -139,7 +139,7 @@
 -  14.4 Dependent Events in Histories
 
 
-15 Density Matrices PostScript or PDF
+15 Density Matrices  
 
 -  15.1 Introduction
 -  15.2 Density Matrix as a Pre-Probability
@@ -150,7 +150,7 @@
 -  15.7 Conditional Density Matrices
 
 
-16 Quantum Reasoning PostScript or PDF
+16 Quantum Reasoning  
 
 -  16.1 Some General Principles
 -  16.2 Example: Toy Beam Splitter
@@ -158,7 +158,7 @@
 -  16.4 Interpretation of Multiple Frameworks
 
 
-17 Measurements I PostScript or PDF
+17 Measurements I  
 
 -  17.1 Introduction
 -  17.2 Microscopic Measurement
@@ -167,7 +167,7 @@
 -  17.5 General Destructive Measurements
 
 
-18 Measurements II PostScript or PDF
+18 Measurements II  
 
 -  18.1 Beam Splitter and Successive Measurements
 -  18.2 Wave Function Collapse
@@ -176,7 +176,7 @@
 -  18.5 General Nondestructive Measurements
 
 
-19 Coins and Counterfactuals PostScript or PDF
+19 Coins and Counterfactuals  
 
 -  19.1 Quantum Paradoxes
 -  19.2 Quantum Coins
@@ -184,7 +184,7 @@
 -  19.4 Quantum Counterfactuals
 
 
-20 Delayed Choice Paradox PostScript or PDF
+20 Delayed Choice Paradox  
 
 -  20.1 Statement of the Paradox
 -  20.2 Unitary Dynamics
@@ -193,7 +193,7 @@
 -  20.5 Conclusion
 
 
-21 Indirect Measurement Paradox PostScript or PDF
+21 Indirect Measurement Paradox  
 
 -  21.1 Statement of the Paradox
 -  21.2 Unitary Dynamics
@@ -203,7 +203,7 @@
 -  21.6 Conclusion
 
 
-22 Incompatibility Paradoxes PostScript or PDF
+22 Incompatibility Paradoxes  
 
 -  22.1 Simultaneous Values
 -  22.2 Value Functionals
@@ -213,7 +213,7 @@
 -  22.6 Truth Functionals for Histories
 
 
-23 Singlet State Correlations PostScript or PDF
+23 Singlet State Correlations  
 
 -  23.1 Introduction
 -  23.2 Spin Correlations
@@ -222,7 +222,7 @@
 -  23.5 Measurements of Two Spins
 
 
-24 EPR Paradox and Bell Inequalities PostScript or PDF
+24 EPR Paradox and Bell Inequalities  
 
 -  24.1 Bohm Version of the EPR Paradox
 -  24.2 Counterfactuals and the EPR Paradox
@@ -230,7 +230,7 @@
 -  24.4 Bell Inequalities
 
 
-25 Hardy's Paradox PostScript or PDF
+25 Hardy's Paradox  
 
 -  25.1 Introduction
 -  25.2 The First Paradox
@@ -239,7 +239,7 @@
 -  25.5 Analysis of the Second Paradox
 
 
-26 Decoherence and the Classical Limit PostScript or PDF
+26 Decoherence and the Classical Limit  
 
 -  26.1 Introduction
 -  26.2 Particle in an Interferometer
@@ -248,7 +248,7 @@
 -  26.5 Consistency of Histories
 -  26.6 Decoherence and Classical Physics
 
-27 Quantum Theory and Reality PostScript or PDF
+27 Quantum Theory and Reality  
 
 -  27.1 Introduction
 -  27.2 Quantum vs. Classical Reality
