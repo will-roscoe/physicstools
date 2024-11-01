@@ -1,0 +1,23 @@
+'''
+K^{-} + p -> \Omega^{-} + K^{+} + K^{0}
+'''
+#k := meson(K^-)
+#p := baryon(p)
+{#k[/u], #p[u]} -> g -> #p[u]
+#p[u] -> g -> {s, /s}:
+    #p[u] -> g -> {s,/s}:
+        {#p[u],*/s} -- meson(K^+) =: #k2
+        {#k[s], *s, **s} -- baryon(Omega^-) =: #o 
+    {#p[d], */s} -- meson(K^0) =: #k3
+
+'''
+\Omega^{-} -> \Xi^{0} + \pi^{-}
+'''
+#o := baryon(Omega^-)
+#o[s] -> W- ->(( 
+    {u}:
+        {*u, #o[s], #o[s]} -- baryon{Xi^0} =: #x
+    {/u, d}:
+        {*/u, *d} -- meson(pi^-) =: #i
+))
+
