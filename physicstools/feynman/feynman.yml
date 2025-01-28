@@ -1,0 +1,61 @@
+# q denotes some quark 
+# q! denotes a quark that is not q
+# /q denotes an anti-quark of q
+# @ denotes a boson: W+, W-, Z, * (photon), g (gluon),
+# l denotes a lepton, and ~l denotes a neutrino with the same flavor as l
+# q? denotes ambiguity in the flavor of the quark (can be same or different to q)
+quarks:
+  - u:
+      antiparticle: /u
+  - d:
+      antiparticle: /d
+  - s:
+      antiparticle: /s
+  - c:
+      antiparticle: /c
+  - b:
+      antiparticle: /b
+  - t:
+      antiparticle: /t
+leptons:
+  - e
+  - m:
+      alias: mu
+  - a:
+      alias: tau
+
+# Allowed vertices
+vertices:
+  W-:
+    arrangements:
+      - [q, q!, W-]
+      - [l, /~l, W-]
+    antiparticle: W+
+  Z:
+    arrangements:
+      - [q, /q, Z]
+      - [l, /l, Z]
+      - [~l, /~l, Z]
+  y:
+    arrangements:
+      - [q, /q, *]
+      - [l, /l, *]
+      - [~l, /~l, *]
+    alias:
+      - gamma
+  g:
+    arrangements:
+      - [q, /q, g]
+      - [q, q, g]
+      - [q, g] # analogous to the above, but without explicitly defining the product as the same quark.
+
+composites:
+  baryon:
+    arrangements:
+      - [q, q?, q?]
+  meson:
+    arrangements:
+      - [q, /q?]
+
+
+  
